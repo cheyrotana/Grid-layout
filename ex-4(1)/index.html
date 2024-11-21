@@ -9,14 +9,179 @@
 
 </head>
 <body>
-    <div class="container">
-        <div id="header"></div>
-        <div class="body">
-            <div class="left-sidebar"></div>
-            <div class="content"></div>
-            <div class="right-sidebar"></div>
-
+    <header>
+        <div class="header-left">
+            <img src="./400w-F4QBmAsbiR4.webp" alt="logo" class="img" >
         </div>
-    </div>    
+        <div class="header-center">
+            <p>Charts<p>
+        </div>
+    </header>
+    <nav>
+        <img src="./kitten.webp" alt="cat" id="cat">
+        <div class="personal-info">
+            <p>Suba</p>
+            <span>Web Developer/UX-UI designer</span>
+        </div>
+        <div class="button">
+            <ul class="button-list">
+                <div class="icon">
+                    <i class="fa-solid fa-house"></i>
+                    <li><button>Dashboard</button></li>
+                </div>
+                <div class="icon">
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <li><button>Analytics</button></li>
+                </div>
+                <div class="icon">
+                    <i class="fa-solid fa-list-check"></i>
+                    <li><button>Task & List</button></li>
+                </div>
+                <div class="icon">
+                    <i class="fa-solid fa-clock"></i>
+                    <li><button>Tracking</button></li>
+                </div>
+                <div class="icon">
+                    <i class="fa-solid fa-gears"></i>
+                    <li><button>Setting</button></li>
+                </div>
+            </ul>
+        </div>
+    </nav>
+    <main>                
+        <div class="main-content">
+            <div class="header-content">
+                <div class="greeting">
+                    <p>Hello, Suba<p>
+                    <span>Today is Thursday, 21 November 2024</span>
+                </div>
+                <div class="option">
+                    <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                    <button class="button-class">Create an account</button>
+                </div>
+            </div>
+            <div class="task">
+                <div class="project">
+                    <div class="item" style="background-color: purple;">
+                        <div class="card-header">
+                            <div class="avatars">
+                              <img src="./cat avatar/cat1.webp" alt="Avatar 1" class="avatar">
+                              <img src="cat avatar/cat2.webp" alt="Avatar 2" class="avatar">
+                              <div class="extra-avatars">+7</div>
+                            </div>
+                            <div class="menu">
+                              <span>⋮</span>
+                            </div>
+                          </div>
+                          <div class="card-body">
+                            <h3 class="card-title">Web Development</h3>
+                            <p class="task-details">10 tasks • 96%</p>
+                            <div class="progress-bar">
+                              <div class="progress" style="width: 96%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" style="background-color: aquamarine;">
+                        <div class="card-header">
+                            <div class="avatars">
+                              <img src="dog avatar/dog1.webp" alt="Avatar 1" class="avatar">
+                              <img src="dog avatar/dog2.webp" alt="Avatar 2" class="avatar">
+                              <div class="extra-avatars">+7</div>
+                            </div>
+                            <div class="menu">
+                              <span>⋮</span>
+                            </div>
+                          </div>
+                          <div class="card-body">
+                            <h3 class="card-title">Mobile App Design</h3>
+                            <p class="task-details">22 tasks • 66%</p>
+                            <div class="progress-bar">
+                              <div class="progress" style="width: 66%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" style="background-color: orange;">
+                        <div class="card-header">
+                            <div class="avatars">
+                              <img src="beaver avatar/sea-otter.webp" alt="Avatar 1" class="avatar">
+                              <img src="beaver avatar/sea-otters 2.webp" alt="Avatar 2" class="avatar">
+                              <div class="extra-avatars">+7</div>
+                            </div>
+                            <div class="menu">
+                              <span>⋮</span>
+                            </div>
+                          </div>
+                          <div class="card-body">
+                            <h3 class="card-title">Bank Brand UI kit</h3>
+                            <p class="task-details">12 tasks • 46%</p>
+                            <div class="progress-bar">
+                              <div class="progress" style="width: 46%;"></div>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+                <div class="stat-box">
+                    <div class="stat1">
+                        <div class="title1">Tasks for today</div>
+                        <div id="items">
+                            <div class="task-indicator" style="background-color: #ff6b6b;"></div>
+                            <div class="task-content">
+                              <h4 class="task-title">Mobile App</h4>
+                              <p class="task-description">Prepare Figma file</p>
+                            </div>
+                        </div>
+                        <div id="items">
+                            <div class="task-indicator" style="background-color: #54a0ff;"></div>
+                            <div class="task-content">
+                              <h4 class="task-title">UX Wireframes</h4>
+                              <p class="task-description">Design UX wireframes</p>
+                            </div>
+                        </div>
+                        <div id="items">
+                            <div class="task-indicator" style="background-color: #6c5ce7;"></div>
+                            <div class="task-content">
+                              <h4 class="task-title">Mobile App</h4>
+                              <p class="task-description">Research</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+    </main>
+    <aside>
+        <div class="sb-header">
+            <p>Schedule</p>
+            <i class="fa-solid fa-bell"></i>
+        </div> 
+        <div class="sb-content">
+            <div class="time-group morning">
+                <h3>Morning</h3>
+                <div class="item-date">
+                    <span>10:00 </span> | Team Meeting
+                </div>
+                <div class="item-date">
+                    <span>13:00 </span> | Lunch Break
+                </div>
+            </div>
+            <div class="time-group afternoon">
+                <h3>Afternoon</h3>
+                <div class="item-date">
+                    <span>14:00 </span> | Team Building
+                </div>
+                <div class="item-date">
+                    <span>16:00 </span> | Go Home
+                </div>
+            </div>
+            <div class="time-group evening">
+                <h3>Evening</h3>
+                <div class="item-date">
+                    <span>18:00</span> | Dinner
+                </div>
+                <div class="item-date">
+                    <span>20:00</span> | Sleep
+                </div>
+            </div>
+        </div>
+    </aside>    
 </body>
 </html>
